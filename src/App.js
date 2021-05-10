@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <table border={2}>
+                <tr>
+                    <td width={150}>Name</td>
+                    <td width={120}>Price</td>
+                    <td width={100}>Count</td>
+                </tr>
+                <tr>
+                    <td>Box 123</td>
+                    <td>$45645</td>
+                    <td>21</td>
+                </tr>
+            </table>
+
+        </div>
+    );
 }
 
 export default App;
